@@ -12,19 +12,45 @@ RESULT:
 SELECT all Employee records from the database
 
 RESULT:
+16	Chuck	Jones	MANAGER	100000
+17	Marty	Krofft	ENGINEER	80000
+18	Peter	Barker	DEVELOPER	50000
+19	Sam	Sham	DEVELOPER	35000
+20	Ellen	Musk	DEVELOPER	38000
+
 
 SELECT only the DEVELOPERS from the table
 
 RESULT:
 
+18	Peter	Barker	DEVELOPER	50000
+19	Sam	Sham	DEVELOPER	35000
+20	Ellen	Musk	DEVELOPER	38000
+
+
 SELECT only the Employees making more than 50000
 
 RESULT:
+
+17	Marty	Krofft	ENGINEER	80000
+
 
 UPDATE the salary for Ellen Musk and give a raise to 42000
 
 RESULT:
 
+16	Chuck	Jones	MANAGER	100000
+17	Marty	Krofft	ENGINEER	80000
+18	Peter	Barker	DEVELOPER	50000
+20	Ellen	Musk	DEVELOPER	4200
+
+
 DELETE Sam Sham
 
 RESULT:
+
+16	Chuck	Jones	MANAGER	100000
+17	Marty	Krofft	ENGINEER	80000
+18	Peter	Barker	DEVELOPER	50000
+20	Ellen	Musk	DEVELOPER	38000
+
